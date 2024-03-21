@@ -25,3 +25,7 @@ This exchange is intended to send messages to multiple queues simultaneously. Un
 
 ![CleanShot 2024-03-21 at 4  24 29@2x](https://github.com/kingRayhan/rabbitmq-playground/assets/7611746/b4281b27-4248-4826-922c-eb041fb74761)
 
+
+
+### Topic Exchange
+![CleanShot 2024-03-21 at 4  26 12@2x](https://github.com/kingRayhan/rabbitmq-playground/assets/7611746/2c9a8e7d-d0e6-4141-954c-0edb7421b424)
