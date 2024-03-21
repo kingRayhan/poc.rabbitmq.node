@@ -16,7 +16,12 @@ Exchange is like a postman for your message. Exchange is responsible for pushing
 ### Direct Exchange
 Direct exchange refers to sending a message to a specific queue using a routing key. In exchange type `direct`, multiple queues bind with exchange with a unique `routing_key`. When we publish a message to `Direct Exchange`, we must need to provide a routing_key as well to decide in which queue the message will go.
 
+![CleanShot 2024-03-21 at 4  22 42@2x](https://github.com/kingRayhan/rabbitmq-playground/assets/7611746/d1d80eb7-67cf-496e-a78d-e97440dce9b8)
+![CleanShot 2024-03-21 at 4  23 54@2x](https://github.com/kingRayhan/rabbitmq-playground/assets/7611746/88081136-705f-4c77-b60f-299cc93286ea)
 
-![CleanShot 2024-03-21 at 2  32 29@2x](https://github.com/kingRayhan/rabbitmq-playground/assets/7611746/36fd695d-5d63-4afd-80ea-51e690b7ede6)
-![CleanShot 2024-03-21 at 2  33 06@2x](https://github.com/kingRayhan/rabbitmq-playground/assets/7611746/1a04580b-24a1-480e-b423-35301141b1f8)
+
+### Fanout Exchange
+This exchange is intended to send messages to multiple queues simultaneously. Unlike the Direct exchange type, Fanout exchange binds with several queues without any `routing_key`. So we don't need to provide any `routing_key` while publishing a message to fanout exchange as it doesn't bind queues with any routing_key.
+
+![CleanShot 2024-03-21 at 4  24 29@2x](https://github.com/kingRayhan/rabbitmq-playground/assets/7611746/b4281b27-4248-4826-922c-eb041fb74761)
 
